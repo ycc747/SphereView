@@ -59,27 +59,7 @@
 
 ## 部署
 
-### GitHub Pages 自動部署
-
-專案已設定 GitHub Actions 自動部署流程：
-
-1. **設定 Repository Secrets**
-   
-   在 GitHub Repository 設定中加入：
-   - `GEMINI_API_KEY`: 你的 Gemini API Key
-
-2. **啟用 GitHub Pages**
-   
-   - 前往 Repository Settings > Pages
-   - Source 選擇 "GitHub Actions"
-
-3. **推送到 main 分支**
-   
-   ```bash
-   git push origin main
-   ```
-   
-   GitHub Actions 會自動建置並部署到 GitHub Pages
+### GitHub Pages
 
 ### 手動部署
 
@@ -114,10 +94,6 @@ SphereView/
 2. 使用滑桿或輸入框調整 X、Y、Z 座標
 3. 右側 3D 視圖會即時顯示曲面和座標點
 4. 可以用滑鼠拖曳旋轉、滾輪縮放視角
-
-## AI Studio
-
-原始專案來自 AI Studio: https://ai.studio/apps/drive/1eGMflJETfWNl_Ys-NwNKrOUjezYpSp2v
 
 ## License
 
