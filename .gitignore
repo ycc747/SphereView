@@ -28,6 +28,18 @@ lerna-debug.log*
 .env.production.local
 *.local
 
+# Secrets and credentials
+auth.json
+secret.json
+credentials.json
+firebase-key.json
+serviceAccountKey.json
+*.pem
+*.key
+*.pfx
+.npmrc
+.yarnrc
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
