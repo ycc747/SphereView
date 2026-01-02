@@ -1,0 +1,5 @@
+{
+  "name": "EquaViz 3D",
+  "description": "An interactive 3D equation explorer where you can input x,y,z equations, visualize surfaces, and dynamically solve for coordinate values within a -1 to 1 range.",
+  "requestFramePermissions": []
+}
