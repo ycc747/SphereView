@@ -2,6 +2,7 @@
 # SphereView
 
 一個基於 React + Three.js 的 3D 隱函數曲面視覺化工具，可以即時渲染數學方程式並互動操作座標點。
+同時這也是一個使用Gemini Vibe Coding的例子
 
 ## 功能特色
 
