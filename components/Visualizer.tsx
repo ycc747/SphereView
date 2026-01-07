@@ -278,8 +278,7 @@ const Legend: React.FC = () => {
 
 const Visualizer: React.FC<VisualizerProps> = ({ coords, equation, onPointMove, activeAxis }) => {
     return (
-        <Canvas>
-            <PerspectiveCamera makeDefault position={[3, 3, 3]} />
+        <Canvas camera={{ position: [3, 3, 3], up: [0, 0, 1] }}>
             <OrbitControls enableDamping dampingFactor={0.05} />
 
             <ambientLight intensity={0.5} />
@@ -296,6 +295,7 @@ const Visualizer: React.FC<VisualizerProps> = ({ coords, equation, onPointMove, 
                 sectionColor="#475569"
                 fadeDistance={30}
                 fadeStrength={1}
+                rotation={[Math.PI / 2, 0, 0]}
                 infiniteGrid
             />
 
